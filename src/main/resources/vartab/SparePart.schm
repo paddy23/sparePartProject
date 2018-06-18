@@ -1,0 +1,26 @@
+database Ersatzteilkatalog {
+        number 25
+        classname SparePart
+        structure Ersatzteilkatalog {
+                head {
+                        field GL30 testhead {
+                                label ""
+                                heading ""
+                                description "Test field head"
+                                screen EDITABLE
+                                showPriority A
+                                changePriority A
+                        }
+                }
+                table {
+                        field GL30 testtable {
+                                label ""
+                                heading ""
+                                description "Test field table"
+                                screen EDITABLE
+                                showPriority A
+                                changePriority A
+                        }
+                }
+        }
+}
