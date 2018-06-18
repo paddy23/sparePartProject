@@ -14,7 +14,7 @@ repositories {
 esdk {
 	app {
 		name = "SparePartProject"
-		vendorId = "esdkTrainingGroup AG"
+		vendorId = "ae"
 		appId = "spp18"
 		shared = false
 		infosystems = []
