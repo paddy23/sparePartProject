@@ -1,5 +1,5 @@
 # SparePartProject
-This is the source code of the SparePartProject an abas Essentials App build on the abas Essentials SDK.
+This is our first eSDK App
 
 ## General setup
 Add a gradle.properties file to your $GRADLE_USER_HOME.
