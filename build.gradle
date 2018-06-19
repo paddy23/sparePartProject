@@ -13,6 +13,7 @@ repositories {
 
 esdk {
 	app {
+		essentialsVersions = ["2017r1n00-2017r4n18"]
 		name = "SparePartProject"
 		vendorId = "ae"
 		appId = "spp18"
@@ -24,6 +25,7 @@ esdk {
 		keys = []
 		enums = []
 		languages = "DE"
+		workdirs = [ "ow1", "owdir" ]
 	}
 
 	abas {
