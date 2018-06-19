@@ -1,0 +1,45 @@
+database master Teil {
+	number 2
+	classname Part
+	structure Artikel {
+		groupNumber 1
+		head {
+		}
+		table {
+		}
+	}
+	structure Fertigungsmittel {
+		groupNumber 2
+		head {
+		}
+	}
+	structure Zusatzposition {
+		groupNumber 4
+		head {
+		}
+	}
+	structure Dienstleistung {
+		groupNumber 5
+		head {
+		}
+		table {
+		}
+	}
+	structure Kundenartikeleigenschaft {
+		groupNumber 6
+		head {
+		}
+	}
+	structure Kundenartikeleigenschaften {
+		groupNumber 7
+		head {
+		}
+		table {
+		}
+	}
+	structure "Zugänge/Abgänge" {
+		groupNumber 8
+		head {
+		}
+	}
+}
