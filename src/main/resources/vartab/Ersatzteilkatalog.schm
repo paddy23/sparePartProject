@@ -82,7 +82,7 @@ database master Ersatzteilkatalog {
                 screen EDITABLE
                 showPriority A
                 changePriority A
-}
+            }
 		}
 		table {
 		}
