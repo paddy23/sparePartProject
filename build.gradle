@@ -19,7 +19,7 @@ esdk {
 		appId = "spp18"
 		shared = false
 		infosystems = []
-		tables = []
+		tables = ["File"]
 		screens = [:]
 		data = []
 		keys = []
