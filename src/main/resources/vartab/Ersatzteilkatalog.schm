@@ -1,0 +1,34 @@
+database master Ersatzteilkatalog {
+	number 15
+	classname Ersatzteilkatalog
+	structure Ersatzteile {
+		head {
+			field "P1:1.2.3.4" klief {
+				label ""
+				heading ""
+				description Lieferant
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field "P2:1" kartex {
+				label ""
+				heading ""
+				description Artikel
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL30 klbed {
+				label ""
+				heading ""
+				description "Artikelnummer Lieferant"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+		}
+		table {
+		}
+	}
+}
