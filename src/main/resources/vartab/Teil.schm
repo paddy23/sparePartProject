@@ -4,10 +4,10 @@ database master Teil {
 	structure Artikel {
 		groupNumber 1
 		head {
-			field "P15:0" sparepart {
+			field GL30 sparepartid {
 				label ""
 				heading ""
-				description Ersatzteil
+				description Ersatzteilid
 				screen EDITABLE
 				showPriority A
 				changePriority A
@@ -29,10 +29,10 @@ database master Teil {
 	structure Dienstleistung {
 		groupNumber 5
 		head {
-			field "P15:0" sparepart {
+			field GL30 sparepartid {
 				label ""
 				heading ""
-				description Ersatzteil
+				description Ersatzteilid
 				screen EDITABLE
 				showPriority A
 				changePriority A

@@ -19,8 +19,8 @@ esdk {
 		appId = "spp18"
 		shared = false
 		infosystems = []
-		tables = ["Ersatzteilkatalog", "Teil"]
-		screens = ["2": ["A","D"], "Ersatzteilkatalog:Ersatzteile":["A"]]
+		tables = ["Teil","Ersatzteilkatalog"]
+		screens = ["2":["A", "D"],"Ersatzteilkatalog:Ersatzteile":["A"]]
 		data = []
 		keys = []
 		enums = []
