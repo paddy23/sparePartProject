@@ -20,7 +20,7 @@ esdk {
 		shared = false
 		infosystems = []
 		tables = ["Ersatzteilkatalog"]
-		screens = [:]
+		screens = ["Ersatzteilkatalog:Ersatzteile":["A"]]
 		data = []
 		keys = []
 		enums = []
