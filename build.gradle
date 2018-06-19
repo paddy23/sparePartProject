@@ -25,7 +25,7 @@ esdk {
 		keys = []
 		enums = []
 		languages = "DE"
-		workdirs = [ "ow1", "owdir" ]
+		workdirs = [ "ow1", "owdir", "owdoku" ]
 	}
 
 	abas {
