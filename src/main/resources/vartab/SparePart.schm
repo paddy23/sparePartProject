@@ -3,6 +3,8 @@ database Ersatzteilkatalog {
     number 25
     classname SparePart
     structure Ersatzteilkatalog {
+        group 0
+        addDBMasterData 1
         head {
             field "PS1:1" vendor {
                 label ""
