@@ -19,13 +19,13 @@ esdk {
 		appId = "spp18"
 		shared = false
 		infosystems = []
-		tables = ["Teil","Ersatzteilkatalog"]
-		screens = ["2":["A", "D"],"Ersatzteilkatalog:Ersatzteile":["A"]]
+		tables = ["Ersatzteilkatalog"]
+		screens = ["Ersatzteilkatalog:Ersatzteile":["A"]]
 		data = []
 		keys = []
 		enums = []
 		languages = "DE"
-		workdirs = [ "ow1", "owdir", "owdoku" ]
+		workdirs = [ "ow1", "owis", "owdoku" ]
 	}
 
 	abas {

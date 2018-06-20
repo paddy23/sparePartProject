@@ -3,15 +3,7 @@ database master Ersatzteilkatalog {
 	classname Ersatzteilkatalog
 	structure Ersatzteile {
 		head {
-			field "P1:1.2.3.4" klief {
-				label ""
-				heading ""
-				description Lieferant
-				screen EDITABLE
-				showPriority A
-				changePriority A
-			}
-			field "P2:1" kartex {
+			field "P2:1" artex {
 				label ""
 				heading ""
 				description Artikel
@@ -19,7 +11,15 @@ database master Ersatzteilkatalog {
 				showPriority A
 				changePriority A
 			}
-			field GL30 klbed {
+			field "P1:1.2" lief {
+				label ""
+				heading ""
+				description Lieferant
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL30 aliefnum {
 				label ""
 				heading ""
 				description "Artikelnummer Lieferant"
@@ -27,62 +27,54 @@ database master Ersatzteilkatalog {
 				showPriority A
 				changePriority A
 			}
-			field GL30 martex {
-                label ""
-                heading ""
-                description "Matchcode of product"
-                screen EDITABLE
-                showPriority A
-                changePriority A
-            }
-            field GL40 bez {
-                label ""
-                heading ""
-                description Description
-                screen EDITABLE
-                showPriority A
-                changePriority A
-            }
-            field "R6.2" preis {
-                label ""
-                heading ""
-                description Price
-                screen EDITABLE
-                showPriority A
-                changePriority A
-            }
-            field GL30 zeichn {
-                label ""
-                heading ""
-                description Signature
-                screen EDITABLE
-                showPriority A
-                changePriority A
-            }
-            field GD19 datbis {
-                label ""
-                heading ""
-                description Date
-                screen EDITABLE
-                showPriority A
-                changePriority A
-            }
-            field B uebtr {
-                label ""
-                heading ""
-                description Transferred
-                screen EDITABLE
-                showPriority A
-                changePriority A
-            }
-            field GD19 ldat {
-                label ""
-                heading ""
-                description "Last changed"
-                screen EDITABLE
-                showPriority A
-                changePriority A
-            }
+			field GL30 mcode {
+				label ""
+				heading ""
+				description "Matchcode des Lieferanten"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field T40 bez {
+				label ""
+				heading ""
+				description Bezeichnung
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field "R6.2" preis {
+				label ""
+				heading ""
+				description Preis
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GL30 znum {
+				label ""
+				heading ""
+				description Zeichnungsnummer
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field GD2 bisdate {
+				label ""
+				heading ""
+				description "Gültig bis"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
+			field B1 ueb {
+				label ""
+				heading ""
+				description "übertragen j/n"
+				screen EDITABLE
+				showPriority A
+				changePriority A
+			}
 		}
 		table {
 		}
