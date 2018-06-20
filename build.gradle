@@ -18,7 +18,7 @@ esdk {
 		vendorId = "ae"
 		appId = "spp18"
 		shared = false
-		infosystems = []
+		infosystems = ["is.OWIS.IMPERSATZTEIL"]
 		tables = ["Ersatzteilkatalog"]
 		screens = ["Ersatzteilkatalog:Ersatzteile":["A"]]
 		data = []
