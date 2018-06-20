@@ -27,6 +27,62 @@ database master Ersatzteilkatalog {
 				showPriority A
 				changePriority A
 			}
+			field GL30 martex {
+                label ""
+                heading ""
+                description "Matchcode of product"
+                screen EDITABLE
+                showPriority A
+                changePriority A
+            }
+            field GL40 bez {
+                label ""
+                heading ""
+                description Description
+                screen EDITABLE
+                showPriority A
+                changePriority A
+            }
+            field "R6.2" preis {
+                label ""
+                heading ""
+                description Price
+                screen EDITABLE
+                showPriority A
+                changePriority A
+            }
+            field GL30 zeichn {
+                label ""
+                heading ""
+                description Signature
+                screen EDITABLE
+                showPriority A
+                changePriority A
+            }
+            field GD19 datbis {
+                label ""
+                heading ""
+                description Date
+                screen EDITABLE
+                showPriority A
+                changePriority A
+            }
+            field B uebtr {
+                label ""
+                heading ""
+                description Transferred
+                screen EDITABLE
+                showPriority A
+                changePriority A
+            }
+            field GD19 ldat {
+                label ""
+                heading ""
+                description "Last changed"
+                screen EDITABLE
+                showPriority A
+                changePriority A
+            }
 		}
 		table {
 		}

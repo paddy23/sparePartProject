@@ -8,4 +8,6 @@ bin/
 gradle.properties
 .gradle/
 .gitignore
+.gradle\4.2\fileHashes\fileHashes.bin
+.gradle\4.2\fileHashes\fileHashes.lock
 
